@@ -11,7 +11,7 @@ import org.apache.commons.httpclient.methods.PostMethod;
  * @Date:2021/11/17 9:54
  * @Description:
  */
-public class test {
+public class PhoneMessageTest {
         public static void main(String[] args) throws Exception {
             HttpClient client = new HttpClient();
             PostMethod post = new PostMethod("http://gbk.api.smschinese.cn");
