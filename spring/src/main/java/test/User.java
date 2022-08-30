@@ -7,7 +7,7 @@ package test;
  */
 public class User {
     private Integer id;
-    private String name;
+    private String name = "小明";
 
     public User(Integer id, String name) {
         this.id = id;
@@ -36,15 +36,5 @@ public class User {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';
-    }
-
-    @Override
-    public int hashCode() {
-        return id;
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
     }
 }
